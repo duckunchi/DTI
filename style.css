@@ -55,3 +55,72 @@ header p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   background-color: #f0f0f0; /* Subtle background change on hover */
 }
+
+/* Socials Section Styling */
+.social {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.social h2 {
+  font-size: 2rem;
+  color: #e6a8ff; /* Soft lavender color for a cute vibe */
+  margin-bottom: 1rem;
+}
+
+.social p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.social ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6a8ff; /* Soft lavender button background */
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social a:hover {
+  background-color: #d58cd6; /* Slightly darker lavender */
+  transform: scale(1.1); /* Slight scaling effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social a:focus {
+  outline: 2px solid #d58cd6; /* Outline effect for accessibility */
+}
+
+.social a img {
+  margin-right: 0.5rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  transition: transform 0.3s ease;
+}
+
+.social a:hover img {
+  transform: scale(1.1); /* Slight scale on icons */
+}
+
