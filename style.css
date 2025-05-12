@@ -1,126 +1,108 @@
-/* Removes default spacing / consistent sizing across all browsers */
-* {
+/* General reset & base styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  line-height: 1.6;
 }
 
-/* Basic body styling */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; /* Added fallback fonts */
-  background-color: #f9f9f9;
-  color: #1a1a1a;
-  line-height: 1.5;
-  padding: 2rem;
-}
-
-/* Header Styling */
+/* Header & Navigation */
 header {
+  background-color: #f5f5f5;
+  padding: 20px;
   text-align: center;
-  margin-bottom: 2rem;
+  border-bottom: 2px solid #ddd;
 }
 
-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-header p {
-  font-size: 1rem;
-  color: #555;
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
-/* Grid Layout for Cards */
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #b98aff;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 1.4rem;
+  color: #5c3dad;
+}
+
+/* Socials Section */
+.social ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #6b4ca4;
+}
+
+.social ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Grid of Links (Cards) */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  padding: 30px 10%;
+  margin: 20px 0;
 }
 
-/* Card Buttons */
 .card {
-  background: #fff;
-  padding: 1.5rem;
+  display: block;
+  background: #f1eaff;
   border-radius: 12px;
   text-align: center;
-  font-weight: 600;
-  color: #1a1a1a;
+  padding: 15px;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+  font-weight: 600;
+  color: #4b2f83;
+  transition: background 0.3s ease;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-  background-color: #f0f0f0; /* Subtle background change on hover */
+  background: #d4c2ff;
 }
 
-/* Socials Section Styling */
-.social {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.social h2 {
-  font-size: 2rem;
-  color: #e6a8ff; /* Soft lavender color for a cute vibe */
-  margin-bottom: 1rem;
-}
-
-.social p {
+/* Button Styling */
+button {
+  background-color: #b98aff;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
   font-size: 1rem;
-  color: #555;
-  margin-bottom: 1.5rem;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-.social ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  padding: 0;
+button:hover {
+  background-color: #9a6bdf;
 }
 
-.social li {
-  display: inline-block;
+/* Footer */
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  border-top: 2px solid #ddd;
 }
-
-.social a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e6a8ff; /* Soft lavender button background */
-  padding: 0.8rem 1.2rem;
-  border-radius: 50px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1rem;
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.social a:hover {
-  background-color: #d58cd6; /* Slightly darker lavender */
-  transform: scale(1.1); /* Slight scaling effect */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.social a:focus {
-  outline: 2px solid #d58cd6; /* Outline effect for accessibility */
-}
-
-.social a img {
-  margin-right: 0.5rem;
-  width: 1.3rem;
-  height: 1.3rem;
-  transition: transform 0.3s ease;
-}
-
-.social a:hover img {
-  transform: scale(1.1); /* Slight scale on icons */
-}
-
