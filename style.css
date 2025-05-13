@@ -39,13 +39,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #b98aff;
+  color: #d07b95;
 }
 
 /* Section Titles */
 h2 {
   font-size: 1.4rem;
-  color: #5c3dad;
+  color: #9c416e;
   margin-top: 40px;
   text-align: center;
 }
@@ -76,7 +76,7 @@ h2 {
 .social ul li a {
   text-decoration: none;
   font-weight: 600;
-  color: #6b4ca4;
+  color: #ab6186;
 }
 
 .social ul li a:hover {
@@ -85,7 +85,7 @@ h2 {
 
 /* Audio Button */
 button {
-  background-color: #b98aff;
+  background-color: #eda8bd;
   border: none;
   color: white;
   padding: 10px 18px;
@@ -98,7 +98,7 @@ button {
 }
 
 button:hover {
-  background-color: #9a6bdf;
+  background-color: #df6b8c;
 }
 
 /* Grid Cards */
@@ -112,19 +112,19 @@ button:hover {
 
 .card {
   display: block;
-  background: #f1eaff;
+  background: #ffeaf0;
   border-radius: 12px;
   text-align: center;
   padding: 15px;
   text-decoration: none;
   font-weight: 600;
-  color: #4b2f83;
+  color: #b56473;
   transition: background 0.3s ease;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-  background: #d4c2ff;
+  background: #ffc2d0;
 }
 
 /* About Preview Section */
@@ -143,15 +143,15 @@ button:hover {
 
 .about-preview ul li::before {
   content: "✧ ";
-  color: #a27aff;
+  color: #edb2b9;
 }
 
 /* Footer */
 footer {
-  background-color: #f5f5f5;
+  background-color: #f5eded;
   text-align: center;
   padding: 10px;
   font-size: 0.9rem;
-  border-top: 2px solid #ddd;
+  border-top: 2px solid #e6dfdf;
   margin-top: 40px;
 }
