@@ -155,3 +155,38 @@ footer {
   border-top: 2px solid #e6dfdf;
   margin-top: 40px;
 }
+
+
+/* Codes Section */
+.codes {
+  padding: 30px 10%;
+  background-color: #fff4f7;
+  text-align: center;
+}
+
+.codes h2 {
+  color: #d36084;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.code-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.code-card {
+  background-color: #ffeaf0;
+  border-radius: 12px;
+  padding: 15px;
+  font-weight: 600;
+  color: #c25b7e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.code-card:hover {
+  background-color: #ffc2d0;
+  transform: scale(1.03);
+}
