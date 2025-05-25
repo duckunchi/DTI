@@ -10,15 +10,15 @@ body {
 
 /* Header & Navigation */
 header {
-  background-color: #fdf1f4;
+  background-color: #fce4ec;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #f5c5d1;
+  border-bottom: 2px solid #f8bbd0;
 }
 
 h1 {
   margin-bottom: 10px;
-  color: #d973a0; /* Changed from purple to warm pink */
+  color: #d36084;
 }
 
 nav ul {
@@ -45,7 +45,7 @@ nav ul li a:hover {
 /* Section Titles */
 h2 {
   font-size: 1.4rem;
-  color: #d36084; /* Updated to match pink theme */
+  color: #d36084;
   margin-top: 40px;
   text-align: center;
 }
@@ -76,7 +76,7 @@ h2 {
 .social ul li a {
   text-decoration: none;
   font-weight: 600;
-  color: #c25b7e; /* Slightly deeper pink */
+  color: #d07b95;
 }
 
 .social ul li a:hover {
@@ -118,7 +118,7 @@ button:hover {
   padding: 15px;
   text-decoration: none;
   font-weight: 600;
-  color: #c75e7b;
+  color: #c25b7e;
   transition: background 0.3s ease;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -156,7 +156,6 @@ footer {
   margin-top: 40px;
 }
 
-
 /* Codes Section */
 .codes {
   padding: 30px 10%;
@@ -184,6 +183,7 @@ footer {
   color: #c25b7e;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, background 0.3s ease;
+  position: relative;
 }
 
 .code-card:hover {
@@ -191,6 +191,7 @@ footer {
   transform: scale(1.03);
 }
 
+/* Aesthetic Copy Button */
 .copy-btn {
   margin-top: 12px;
   background: linear-gradient(135deg, #f9b6cc, #f7a6c1);
@@ -226,4 +227,3 @@ footer {
 .copy-btn:hover::after {
   opacity: 1;
 }
-
