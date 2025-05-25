@@ -190,3 +190,40 @@ footer {
   background-color: #ffc2d0;
   transform: scale(1.03);
 }
+
+.copy-btn {
+  margin-top: 12px;
+  background: linear-gradient(135deg, #f9b6cc, #f7a6c1);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(247, 166, 193, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.copy-btn:hover {
+  background: linear-gradient(135deg, #f7a6c1, #f48fb1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(244, 143, 177, 0.5);
+}
+
+.copy-btn::after {
+  content: "✨";
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.copy-btn:hover::after {
+  opacity: 1;
+}
+
