@@ -1,4 +1,6 @@
-/* Base Reset & Fonts */
+/* ============================= */
+/* Base Reset & Font Styling    */
+/* ============================= */
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: #fefefe;
@@ -8,7 +10,9 @@ body {
   line-height: 1.6;
 }
 
-/* Header & Navigation */
+/* ============================= */
+/* Header & Navigation Bar      */
+/* ============================= */
 header {
   background-color: #fce4ec;
   padding: 20px;
@@ -42,7 +46,9 @@ nav ul li a:hover {
   color: #d07b95;
 }
 
-/* Section Titles */
+/* ============================= */
+/* Section Headings             */
+/* ============================= */
 h2 {
   font-size: 1.4rem;
   color: #d36084;
@@ -50,7 +56,9 @@ h2 {
   text-align: center;
 }
 
-/* Intro Section */
+/* ============================= */
+/* Intro Section (About Me)     */
+/* ============================= */
 .intro {
   padding: 20px;
   max-width: 700px;
@@ -58,7 +66,9 @@ h2 {
   text-align: center;
 }
 
-/* Socials Section */
+/* ============================= */
+/* Social Links Section         */
+/* ============================= */
 .social {
   text-align: center;
   margin-top: 30px;
@@ -83,7 +93,9 @@ h2 {
   text-decoration: underline;
 }
 
-/* Audio Button */
+/* ============================= */
+/* Buttons (Audio & Copy)       */
+/* ============================= */
 button {
   background-color: #eda8bd;
   border: none;
@@ -101,7 +113,9 @@ button:hover {
   background-color: #df6b8c;
 }
 
-/* Grid Cards */
+/* ============================= */
+/* Grid Layout for Visual Cards */
+/* ============================= */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -127,7 +141,9 @@ button:hover {
   background: #ffc2d0;
 }
 
-/* About Preview Section */
+/* ============================= */
+/* About Preview Styling        */
+/* ============================= */
 .about-preview {
   padding: 20px;
   max-width: 700px;
@@ -146,7 +162,9 @@ button:hover {
   color: #edb2b9;
 }
 
-/* Footer */
+/* ============================= */
+/* Footer Styling               */
+/* ============================= */
 footer {
   background-color: #f5eded;
   text-align: center;
@@ -156,7 +174,9 @@ footer {
   margin-top: 40px;
 }
 
-/* Codes Section */
+/* ============================= */
+/* Codes Section                */
+/* ============================= */
 .codes {
   padding: 30px 10%;
   background-color: #fff4f7;
@@ -191,7 +211,9 @@ footer {
   transform: scale(1.03);
 }
 
-/* Aesthetic Copy Button */
+/* ============================= */
+/* Fancy Copy Button Styling    */
+/* ============================= */
 .copy-btn {
   margin-top: 12px;
   background: linear-gradient(135deg, #f9b6cc, #f7a6c1);
@@ -228,6 +250,9 @@ footer {
   opacity: 1;
 }
 
+/* ============================= */
+/* Gallery Grid Layout          */
+/* ============================= */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -255,6 +280,9 @@ footer {
   object-fit: cover;
 }
 
+/* ============================= */
+/* Tutorial Page Layout         */
+/* ============================= */
 .how-to {
   max-width: 900px;
   margin: 2rem auto;
