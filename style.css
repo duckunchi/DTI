@@ -11,40 +11,90 @@ body {
 }
 
 /* ============================= */
-/* Header & Navigation Bar      */
+/* Header Design        */
 /* ============================= */
 header {
-  background-color: #fce4ec;
-  padding: 20px;
+  position: relative;
+  background-image: url('docs/assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
   text-align: center;
-  border-bottom: 2px solid #f8bbd0;
+  overflow: hidden;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  max-width: 800px; /* Restrict content width */
+  width: 100%;
 }
 
 h1 {
-  margin-bottom: 10px;
-  color: #d36084;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Text shadow for better contrast */
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow */
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  display: inline-flex;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background for navigation */
+  border-radius: 30px;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 12px;
+  margin: 0 20px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: 600;
-  transition: color 0.3s;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: background 0.3s ease;
+  display: block;
 }
 
 nav ul li a:hover {
-  color: #d07b95;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #d36084; /* Hover effect with soft pink */
 }
+
+/* ============================= */
+/* Header Gradient Overlay       */
+/* ============================= */
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent dark overlay */
+  z-index: 0; /* Place the overlay behind text */
+}
+
 
 /* ============================= */
 /* Section Headings             */
