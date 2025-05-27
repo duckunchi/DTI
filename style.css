@@ -13,10 +13,10 @@ body {
 /* ============================= */
 /* Header Design        */
 /* ============================= */
+
 header {
   position: relative;
   background-image: url('https://duckunchi.github.io/DTI/docs/assets/images/background.png');
-}
   background-size: cover;
   background-position: center;
   height: 100vh; /* Full viewport height */
