@@ -15,7 +15,8 @@ body {
 /* ============================= */
 header {
   position: relative;
-  <img src="docs/assets/images/background.png" alt="Header Background" class="header-bg" />
+  background-image: url('https://duckunchi.github.io/DTI/docs/assets/images/background.png');
+}
   background-size: cover;
   background-position: center;
   height: 100vh; /* Full viewport height */
