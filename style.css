@@ -15,7 +15,7 @@ body {
 /* ============================= */
 header {
   position: relative;
-  background-image: url('http://docs/assets/images/background.jpg');
+  <img src="docs/assets/images/background.png" alt="Header Background" class="header-bg" />
   background-size: cover;
   background-position: center;
   height: 100vh; /* Full viewport height */
